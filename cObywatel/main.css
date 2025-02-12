@@ -1,0 +1,39 @@
+/* 
+    @gameripper665 - 2025
+    Coded with VSCode
+*/
+
+body {
+    font-family: sans-serif; /* idk the actual font for the site, probably Open Sans as its in the assets */
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+}
+
+.container {
+    position: absolute;
+    right: 25px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 40%;
+    background: rgba(242, 248, 253, 255);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.image-section img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.button {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 15px;
+    background: black;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
